@@ -1,10 +1,108 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-flow: column wrap;
+}
+
 h1 {
     text-align: center;
 }
 
 .landing {
     background-image: url(../images/unknown_pleasures_inverted.jpg);
-    width: 100vw;
+    /* width: 44vw; */
     height: 100vh;
     overflow: hidden;
+    align-self: center;
+}
+
+/* Media Queries */
+@media (min-width: 1300px) and (max-width: 1366px){
+    .landing{
+        width: 36vw;
+    }
+}
+@media (min-width: 1200px) and (max-width: 1299px){
+    .landing{
+        width: 38vw;
+    }
+}
+@media (min-width: 1100px) and (max-width: 1199px){
+    .landing{
+        width: 41.5vw;
+    }
+}
+@media (min-width: 1000px) and (max-width: 1099px){
+    .landing{
+        width: 45.5vw;
+    }
+}
+@media (min-width: 920px) and (max-width: 999px){
+    .landing{
+        width: 49.5vw;
+    }
+}
+@media (min-width: 850px) and (max-width: 919px){
+    .landing{
+        width: 53vw;
+    }
+}
+@media (min-width: 799px) and (max-width: 849px){
+    .landing{
+        width: 59vw;
+    }
+}
+@media (min-width: 745px) and (max-width: 798px){
+    .landing{
+        width: 62.5vw;
+    }
+}
+@media (min-width: 705px) and (max-width: 744px){
+    .landing{
+        width: 67.3vw;
+    }
+}
+@media (min-width: 655px) and (max-width: 704px){
+    .landing{
+        width: 71.1vw;
+    }
+}
+@media (min-width: 625px) and (max-width: 654px){
+    .landing{
+        width: 76vw;
+    }
+}
+@media (min-width: 601px) and (max-width: 624px){
+    .landing{
+        width: 80.5vw;
+    }
+}
+@media (min-width: 570px) and (max-width: 600px){
+    .landing{
+        width: 83.2vw;
+    }
+}
+@media (min-width: 525px) and (max-width: 569px){
+    .landing{
+        width: 88vw;
+    }
+}
+@media (min-width: 490px) and (max-width: 524px){
+    .landing{
+        width: 95vw;
+    }
+}
+@media (min-width: 445px) and (max-width: 489px){
+    .landing{
+        width: 98vw;
+    }
+}
+@media (min-width: 1px) and (max-width: 444px){
+    .landing{
+        width: 100vw;
+    }
 }

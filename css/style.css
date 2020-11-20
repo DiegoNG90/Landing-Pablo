@@ -54,7 +54,7 @@ h5 {
 
 }
 footer {
-    padding-top: 5rem;
+    padding-top: 2.5rem;
 }
 footer p{
     font-size: 1.8rem;
@@ -72,6 +72,11 @@ footer p{
     -webkit-animation: heartbeat 1.5s ease-in-out infinite both;
     -ms-animation: heartbeat 1.5s ease-in-out infinite both;
     -moz-animation: heartbeat 1.5s ease-in-out infinite both;
+}
+.fa-facebook:hover {
+    -webkit-animation: jello-vertical 0.9s both;
+    -moz-animation: jello-vertical 0.9s both;
+    -ms-animation: jello-vertical 0.9s both;
 }
 
 /* Formulario/Consultas */
@@ -98,6 +103,9 @@ textarea {
 }
 input::placeholder{
     font-family: 'Source Code Pro', monospace;
+}
+.fa-arrow-down{
+    font-size: 2rem;
 }
 /* Animaciones */
 /* @-webkit-keyframes wobble-hor-bottom {
@@ -263,7 +271,80 @@ input::placeholder{
         -ms-animation-timing-function: ease-out;
     }
 }
-  
+@-webkit-keyframes jello-vertical {
+    0% {
+        -webkit-transform: scale3d(1, 1, 1);
+        -moz-transform: scale3d(1, 1, 1);
+        -ms-transform: scale3d(1, 1, 1);
+    }
+    30% {
+        -webkit-transform: scale3d(0.75, 1.25, 1);
+        -moz-transform: scale3d(0.75, 1.25, 1);
+        -ms-transform: scale3d(0.75, 1.25, 1);
+    }
+    40% {
+        -webkit-transform: scale3d(1.25, 0.75, 1);
+        -moz-transform: scale3d(1.25, 0.75, 1);
+        -ms-transform: scale3d(1.25, 0.75, 1);
+    }
+    50% {
+        -webkit-transform: scale3d(0.85, 1.15, 1);
+        -moz-transform: scale3d(0.85, 1.15, 1);
+        -ms-transform: scale3d(0.85, 1.15, 1);
+    }
+    65% {
+        -webkit-transform: scale3d(1.05, 0.95, 1);
+        -moz-transform: scale3d(1.05, 0.95, 1);
+        -ms-transform: scale3d(1.05, 0.95, 1);
+    }
+    75% {
+        -webkit-transform: scale3d(0.95, 1.05, 1);
+        -moz-transform: scale3d(0.95, 1.05, 1);
+        -ms-transform: scale3d(0.95, 1.05, 1);
+    }
+    100% {
+        -webkit-transform: scale3d(1, 1, 1);
+        -moz-transform: scale3d(1, 1, 1);
+        -ms-transform: scale3d(1, 1, 1);
+    }
+}
+@keyframes jello-vertical {
+    0% {
+        -webkit-transform: scale3d(1, 1, 1);
+        -moz-transform: scale3d(1, 1, 1);
+        -ms-transform: scale3d(1, 1, 1);
+    }
+    30% {
+        -webkit-transform: scale3d(0.75, 1.25, 1);
+        -moz-transform: scale3d(0.75, 1.25, 1);
+        -ms-transform: scale3d(0.75, 1.25, 1);
+    }
+    40% {
+        -webkit-transform: scale3d(1.25, 0.75, 1);
+        -moz-transform: scale3d(1.25, 0.75, 1);
+        -ms-transform: scale3d(1.25, 0.75, 1);
+    }
+    50% {
+        -webkit-transform: scale3d(0.85, 1.15, 1);
+        -moz-transform: scale3d(0.85, 1.15, 1);
+        -ms-transform: scale3d(0.85, 1.15, 1);
+    }
+    65% {
+        -webkit-transform: scale3d(1.05, 0.95, 1);
+        -moz-transform: scale3d(1.05, 0.95, 1);
+        -ms-transform: scale3d(1.05, 0.95, 1);
+    }
+    75% {
+        -webkit-transform: scale3d(0.95, 1.05, 1);
+        -moz-transform: scale3d(0.95, 1.05, 1);
+        -ms-transform: scale3d(0.95, 1.05, 1);
+    }
+    100% {
+        -webkit-transform: scale3d(1, 1, 1);
+        -moz-transform: scale3d(1, 1, 1);
+        -ms-transform: scale3d(1, 1, 1);
+    }
+}  
 
 /* Media Queries */
 @media (min-width: 1300px) and (max-width: 1366px){

@@ -60,15 +60,47 @@ footer p{
     font-size: 1.8rem;
     font-family: 'Source Code Pro', monospace;
 }
-
+.fa-whatsapp{
+    color: green;
+}
+.fa-facebook{
+    color: #2962ff;
+}
 .fa-whatsapp:hover {
     background-color: green;
     color: white;
-    -webkit-animation: wobble-hor-bottom 0.8s ease-out both;
+    -webkit-animation: heartbeat 1.5s ease-in-out infinite both;
+    -ms-animation: heartbeat 1.5s ease-in-out infinite both;
+    -moz-animation: heartbeat 1.5s ease-in-out infinite both;
 }
 
-/* Animacion */
-@-webkit-keyframes wobble-hor-bottom {
+/* Formulario/Consultas */
+#contenedor-form{
+    width: 36vw;
+    align-self: center;
+    margin-top: 2rem;
+}
+h3 {
+    text-align: justify;
+    font-family: 'Xanh Mono', monospace;
+    /* font-style: italic; */
+}
+
+label {
+    font-family: 'Source Code Pro', monospace;
+}
+input{
+    font-size: 2rem;
+    font-family: 'Source Code Pro', monospace;
+}
+textarea {
+    font-family: 'Source Code Pro', monospace;
+}
+input::placeholder{
+    font-family: 'Source Code Pro', monospace;
+}
+/* Animaciones */
+/* @-webkit-keyframes wobble-hor-bottom {
   0%,
   100% {
     -webkit-transform: translateX(0%);
@@ -139,8 +171,99 @@ footer p{
     -moz-transform: translateX(-6px) rotate(-1.2deg);
     -ms-transform: translateX(-6px) rotate(-1.2deg);
   }
-}
+} */
 
+@-webkit-keyframes heartbeat {
+    from {
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -webkit-transform-origin: center center;
+        -moz-transform-origin: center center;
+        -ms-transform-origin: center center;
+        -webkit-animation-timing-function: ease-out;
+        -moz-animation-timing-function: ease-out;
+        -ms-animation-timing-function: ease-out;
+    }
+    10% {
+        -webkit-transform: scale(0.91);
+        -moz-transform: scale(0.91);
+        -ms-transform: scale(0.91);
+        -webkit-animation-timing-function: ease-in;
+        -moz-animation-timing-function: ease-in;
+        -ms-animation-timing-function: ease-in;
+    }
+    17% {
+        -webkit-transform: scale(0.98);
+        -moz-transform: scale(0.98);
+        -ms-transform: scale(0.98);
+        -webkit-animation-timing-function: ease-out;
+        -moz-animation-timing-function: ease-out;
+        -ms-animation-timing-function: ease-out;
+    }
+    33% {
+        -webkit-transform: scale(0.87);
+        -moz-transform: scale(0.87);
+        -ms-transform: scale(0.87);
+        -webkit-animation-timing-function: ease-in;
+        -moz-animation-timing-function: ease-in;
+        -ms-animation-timing-function: ease-in;
+    }
+    45% {
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -webkit-animation-timing-function: ease-out;
+        -moz-animation-timing-function: ease-out;
+        -ms-animation-timing-function: ease-out;
+    }
+}
+@keyframes heartbeat {
+    from {
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -webkit-transform-origin: center center;
+        -moz-transform-origin: center center;
+        -ms-transform-origin: center center;
+        -webkit-animation-timing-function: ease-out;
+        -moz-animation-timing-function: ease-out;
+        -ms-animation-timing-function: ease-out;
+    }
+    10% {
+        -webkit-transform: scale(0.91);
+        -moz-transform: scale(0.91);
+        -ms-transform: scale(0.91);
+        -webkit-animation-timing-function: ease-in;
+        -moz-animation-timing-function: ease-in;
+        -ms-animation-timing-function: ease-in;
+    }
+    17% {
+        -webkit-transform: scale(0.98);
+        -moz-transform: scale(0.98);
+        -ms-transform: scale(0.98);
+        -webkit-animation-timing-function: ease-out;
+        -moz-animation-timing-function: ease-out;
+        -ms-animation-timing-function: ease-out;
+    }
+    33% {
+        -webkit-transform: scale(0.87);
+        -moz-transform: scale(0.87);
+        -ms-transform: scale(0.87);
+        -webkit-animation-timing-function: ease-in;
+        -moz-animation-timing-function: ease-in;
+        -ms-animation-timing-function: ease-in;
+    }
+    45% {
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -webkit-animation-timing-function: ease-out;
+        -moz-animation-timing-function: ease-out;
+        -ms-animation-timing-function: ease-out;
+    }
+}
+  
 
 /* Media Queries */
 @media (min-width: 1300px) and (max-width: 1366px){

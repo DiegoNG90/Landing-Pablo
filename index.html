@@ -24,15 +24,38 @@
         </div>
     </div>
 
-    <section>
+    <section id="contenedor-form">
+        <h3>Comentanos que anda pasando</h3>
+        <div>
 
+            <form action="" method="POST">
+                <div class="form-group">
+                  <label class="labels-form" for="nombre" >Nombre</label>
+                    <input class="form-control" type="text" name="Nombre" placeholder="Escribi tu nombre">
+                </div>
+                <div class="form-group">
+                  <label class="labels-form" for="email">Email</label>
+                  <input type="email" class="form-control" id="email" name="Email" placeholder="name@example.com">
+                </div>
 
+                <div class="form-group">
+                  <label class="labels-form" for="motivo">Motivo de consulta</label>
+                    <input class="form-control" type="text" id="motivo" name="Motivo" placeholder="Breve motivo de consulta">
+                </div>
+                <div class="form-group">
+                  <label class="labels-form" for="consulta">Comentanos tu consulta</label>
+                  <textarea class="form-control" id="consulta" name="consulta" rows="3"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary btn-lg boton-form" href="#" role="button">Enviar</button>
+              </form>
+
+        </div>
 
     </section>
 
 
     <footer style="text-align: center;">
-        <p> 2020 - Pablo Lopez - <i class="fab fa-facebook"></i> y <a href="https://api.whatsapp.com/send?phone=5491136575775"><i class="fab fa-whatsapp"></i></a></p>
+        <p> 2020 - Pablo Lopez - <a href="https://www.facebook.com/"> <i class="fab fa-facebook"></i></a> y <a href="https://api.whatsapp.com/send?phone=5491136575775"><i class="fab fa-whatsapp"></i></a></p>
     </footer>
 
     <!-- JQuery -->

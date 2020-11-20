@@ -10,7 +10,25 @@ body{
 
 h1 {
     text-align: center;
+    font-size: 2.8rem;
+    opacity: 1;
+    color: black;
+    align-items: flex-start;
+    font-family: 'Xanh Mono', monospace;
 }
+h5 {
+    text-align: center;
+    font-family: 'Xanh Mono', monospace;
+    font-style: italic;
+}
+.abajo {
+    text-align: center;
+    align-items: flex-end;
+}
+    /* div .landing{
+        display: flex;
+        align-items: flex-end;
+    } */
 
 .landing {
     background-image: url(../images/unknown_pleasures_inverted.jpg);
@@ -18,7 +36,111 @@ h1 {
     height: 100vh;
     overflow: hidden;
     align-self: center;
+    margin-top: 1.5rem;
+    /* display: flex;
+    flex-flow: column;
+    justify-content: space-between; */
 }
+
+.over-landing{
+    /* margin-top: 1.5rem; */
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    opacity: 0.9;
+    background-color: white;
+    
+    
+    /* background-image: url(../images/elgrito_vertical.jpg); */
+
+}
+footer {
+    padding-top: 5rem;
+}
+footer p{
+    font-size: 1.8rem;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.fa-whatsapp:hover {
+    background-color: green;
+    color: white;
+    -webkit-animation: wobble-hor-bottom 0.8s ease-out both;
+}
+
+/* Animacion */
+@-webkit-keyframes wobble-hor-bottom {
+  0%,
+  100% {
+    -webkit-transform: translateX(0%);
+    -moz-transform: translateX(0%);
+    -ms-transform: translateX(0%);
+    -webkit-transform-origin: 50% 50%;
+    -moz-transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+  }
+  15% {
+    -webkit-transform: translateX(-30px) rotate(-6deg);
+    -moz-transform: translateX(-30px) rotate(-6deg);
+    -ms-transform: translateX(-30px) rotate(-6deg);   
+  }
+  30% {
+    -webkit-transform: translateX(15px) rotate(6deg);
+    -moz-transform: translateX(15px) rotate(6deg);
+    -ms-transform: translateX(15px) rotate(6deg);
+  }
+  45% {
+    -webkit-transform: translateX(-15px) rotate(-3.6deg);
+    -moz-transform: translateX(-15px) rotate(-3.6deg);
+    -ms-transform: translateX(-15px) rotate(-3.6deg);
+  }
+  60% {
+    -webkit-transform: translateX(9px) rotate(2.4deg);
+    -moz-transform: translateX(9px) rotate(2.4deg);
+    -ms-transform: translateX(9px) rotate(2.4deg);
+  }
+  75% {
+    -webkit-transform: translateX(-6px) rotate(-1.2deg);
+    -moz-transform: translateX(-6px) rotate(-1.2deg);
+    -ms-transform: translateX(-6px) rotate(-1.2deg);
+  }
+}
+@keyframes wobble-hor-bottom {
+  0%,
+  100% {
+    -webkit-transform: translateX(0%);
+    -moz-transform: translateX(0%);
+    -ms-transform: translateX(0%);
+    -webkit-transform-origin: 50% 50%;
+    -moz-transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+  }
+  15% {
+    -webkit-transform: translateX(-30px) rotate(-6deg);
+    -moz-transform: translateX(-30px) rotate(-6deg);
+    -ms-transform: translateX(-30px) rotate(-6deg);
+  }
+  30% {
+    -webkit-transform: translateX(15px) rotate(6deg);
+    -moz-transform: translateX(15px) rotate(6deg);
+    -ms-transform: translateX(15px) rotate(6deg);
+  }
+  45% {
+    -webkit-transform: translateX(-15px) rotate(-3.6deg);
+    -moz-transform: translateX(-15px) rotate(-3.6deg);
+    -ms-transform: translateX(-15px) rotate(-3.6deg);
+  }
+  60% {
+    -webkit-transform: translateX(9px) rotate(2.4deg);
+    -moz-transform: translateX(9px) rotate(2.4deg);
+    -ms-transform: translateX(9px) rotate(2.4deg);
+  }
+  75% {
+    -webkit-transform: translateX(-6px) rotate(-1.2deg);
+    -moz-transform: translateX(-6px) rotate(-1.2deg);
+    -ms-transform: translateX(-6px) rotate(-1.2deg);
+  }
+}
+
 
 /* Media Queries */
 @media (min-width: 1300px) and (max-width: 1366px){

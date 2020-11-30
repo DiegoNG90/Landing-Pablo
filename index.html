@@ -17,9 +17,34 @@
 
 </head>
 <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white d-flex justify-content-center">
+        <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+          <ul class="navbar-nav justify-content-center">
+            <li class="nav-item active">
+              <a class="nav-link" href="#bienvenida">Bienvenido </a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Servicios</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#contacto">Contactate</a>
+            </li>
+            <!-- <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li> -->
+          </ul>
+        </div>
+      </nav>
+
+
+
     <div class="landing">
         <div class="over-landing">
-            <h1> Hola, soy Pablo Lopez</h1>
+            <h1 id="bienvenida"> Hola, soy Pablo Lopez</h1>
             <h5>Bienvenido a mi página web</h5>
         </div>
     </div>
@@ -29,7 +54,7 @@
         <div>
 
             <form action="" method="POST">
-                <div class="form-group">
+                <div class="form-group" id="contacto">
                   <label class="labels-form" for="nombre" >Nombre</label>
                     <input class="form-control" type="text" name="Nombre" placeholder="Escribi tu nombre">
                 </div>
@@ -38,10 +63,10 @@
                   <input type="email" class="form-control" id="email" name="Email" placeholder="name@example.com">
                 </div>
 
-                <div class="form-group">
+                <!-- <div class="form-group">
                   <label class="labels-form" for="motivo">Motivo de consulta</label>
                     <input class="form-control" type="text" id="motivo" name="Motivo" placeholder="Breve motivo de consulta">
-                </div>
+                </div> -->
                 <div class="form-group">
                   <label class="labels-form" for="consulta">Comentanos tu consulta</label>
                   <textarea class="form-control" id="consulta" name="consulta" rows="3"></textarea>

@@ -5,57 +5,31 @@
 }
 
 /* Navbar */
-#l-bienvenida{
-    color: #1D3557;
+ #l-bienvenida{
+    color: #457B9D;    
+}
 
-    /* Animacion Roll-in */
-    /* -webkit-animation: roll-in-left 1s ease-out both;
-    -moz-animation: roll-in-left 1s ease-out both;
-    -ms-animation: roll-in-left 1s ease-out both; */
-}
-#l-bienvenida:hover{
-    text-decoration: underline;
-    -webkit-animation: shadow-pop-tr 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
-    -moz-animation: shadow-pop-tr 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
-    -ms-animation: shadow-pop-tr 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
-    
-}
 #l-servicios{
     color:#457B9D;
-
-    /* Animacion Roll-in-top */
-    /* -webkit-animation: roll-in-top 1.2s ease-out both;
-    -moz-animation: roll-in-top 1.2s ease-out both;
-    -ms-animation: roll-in-top 1.2s ease-out both; */
 }
-#l-servicios:hover{
+
+#l-contacto{
+    color:  #457B9D;
+}
+
+.nav-link:hover{
     font-weight: bolder;
     -webkit-animation: shadow-pop-tr 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
     -moz-animation: shadow-pop-tr 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
     -ms-animation: shadow-pop-tr 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
 }
-#l-contacto{
-    color:  #A8DADC;
 
-    /* Animacion Roll-in-bottom  */
-    /* -webkit-animation: roll-in-bottom 1.4s ease-out both;
-    -moz-animation: roll-in-bottom 1.4s ease-out both;
-    -ms-animation: roll-in-bottom 1.4s ease-out both; */
-}
-#l-contacto:hover{
-    text-shadow: 2.5px 0.1px black;
-    font-weight: 700;
-    -webkit-animation: shadow-pop-tr 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
-    -moz-animation: shadow-pop-tr 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
-    -ms-animation: shadow-pop-tr 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
-}
-
+/*  CUERPO */
 
 body{
     display: flex;
     flex-flow: column wrap;
 }
-
 h1 {
     text-align: center;
     font-size: 2.8rem;

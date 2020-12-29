@@ -36,11 +36,11 @@ h1 {
     opacity: 1;
     color: black;
     align-items: flex-start;
-    font-family: 'Xanh Mono', monospace;
+    font-family: 'Roboto', sans-serif;
 }
 h5 {
     text-align: center;
-    font-family: 'Xanh Mono', monospace;
+    font-family: 'Roboto', sans-serif;
     font-style: italic;
 }
 .abajo {
@@ -53,7 +53,7 @@ h5 {
     } */
 
 .landing {
-    background-image: url(../images/unknown_pleasures_inverted.jpg);
+ 
     /* width: 44vw; */
     height: 100vh;
     overflow: hidden;
@@ -70,23 +70,12 @@ h5 {
     justify-content: space-between; */
 }
 
-.over-landing{
-    /* margin-top: 1.5rem; */
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
-    opacity: 0.9;
-    background-color: white;
-    
-    
-    /* background-image: url(../images/elgrito_vertical.jpg); */
-
-}
 footer {
     padding-top: 2.5rem;
 }
 footer p{
     font-size: 1.8rem;
-    font-family: 'Source Code Pro', monospace;
+    font-family: 'Roboto', sans-serif;
 }
 .fa-whatsapp{
     color: green;
@@ -116,23 +105,23 @@ footer p{
 h3 {
     text-align: center;
     padding: 2rem 2.5rem;
-    font-family: 'Xanh Mono', monospace;
+    font-family: 'Roboto', sans-serif;
     /* font-style: italic; */
     -webkit-animation: shadow-drop-2-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
 label {
-    font-family: 'Source Code Pro', monospace;
+    font-family: 'Roboto', sans-serif;
 }
 input{
     font-size: 2rem;
-    font-family: 'Source Code Pro', monospace;
+    font-family: 'Roboto', sans-serif;
 }
 textarea {
-    font-family: 'Source Code Pro', monospace;
+    font-family: 'Roboto', sans-serif;
 }
 input::placeholder{
-    font-family: 'Source Code Pro', monospace;
+    font-family: 'Roboto', sans-serif;
 }
 .fa-arrow-down{
     font-size: 2rem;
@@ -150,78 +139,6 @@ input::placeholder{
  * animation shadow-pop-tr
  * ----------------------------------------
  */
-/* @-webkit-keyframes wobble-hor-bottom {
-  0%,
-  100% {
-    -webkit-transform: translateX(0%);
-    -moz-transform: translateX(0%);
-    -ms-transform: translateX(0%);
-    -webkit-transform-origin: 50% 50%;
-    -moz-transform-origin: 50% 50%;
-    -ms-transform-origin: 50% 50%;
-  }
-  15% {
-    -webkit-transform: translateX(-30px) rotate(-6deg);
-    -moz-transform: translateX(-30px) rotate(-6deg);
-    -ms-transform: translateX(-30px) rotate(-6deg);   
-  }
-  30% {
-    -webkit-transform: translateX(15px) rotate(6deg);
-    -moz-transform: translateX(15px) rotate(6deg);
-    -ms-transform: translateX(15px) rotate(6deg);
-  }
-  45% {
-    -webkit-transform: translateX(-15px) rotate(-3.6deg);
-    -moz-transform: translateX(-15px) rotate(-3.6deg);
-    -ms-transform: translateX(-15px) rotate(-3.6deg);
-  }
-  60% {
-    -webkit-transform: translateX(9px) rotate(2.4deg);
-    -moz-transform: translateX(9px) rotate(2.4deg);
-    -ms-transform: translateX(9px) rotate(2.4deg);
-  }
-  75% {
-    -webkit-transform: translateX(-6px) rotate(-1.2deg);
-    -moz-transform: translateX(-6px) rotate(-1.2deg);
-    -ms-transform: translateX(-6px) rotate(-1.2deg);
-  }
-}
-@keyframes wobble-hor-bottom {
-  0%,
-  100% {
-    -webkit-transform: translateX(0%);
-    -moz-transform: translateX(0%);
-    -ms-transform: translateX(0%);
-    -webkit-transform-origin: 50% 50%;
-    -moz-transform-origin: 50% 50%;
-    -ms-transform-origin: 50% 50%;
-  }
-  15% {
-    -webkit-transform: translateX(-30px) rotate(-6deg);
-    -moz-transform: translateX(-30px) rotate(-6deg);
-    -ms-transform: translateX(-30px) rotate(-6deg);
-  }
-  30% {
-    -webkit-transform: translateX(15px) rotate(6deg);
-    -moz-transform: translateX(15px) rotate(6deg);
-    -ms-transform: translateX(15px) rotate(6deg);
-  }
-  45% {
-    -webkit-transform: translateX(-15px) rotate(-3.6deg);
-    -moz-transform: translateX(-15px) rotate(-3.6deg);
-    -ms-transform: translateX(-15px) rotate(-3.6deg);
-  }
-  60% {
-    -webkit-transform: translateX(9px) rotate(2.4deg);
-    -moz-transform: translateX(9px) rotate(2.4deg);
-    -ms-transform: translateX(9px) rotate(2.4deg);
-  }
-  75% {
-    -webkit-transform: translateX(-6px) rotate(-1.2deg);
-    -moz-transform: translateX(-6px) rotate(-1.2deg);
-    -ms-transform: translateX(-6px) rotate(-1.2deg);
-  }
-} */
 
 @-webkit-keyframes shadow-pop-tr {
 0% {

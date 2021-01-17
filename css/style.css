@@ -26,10 +26,6 @@
 
 /*  CUERPO */
 
-body{
-    display: flex;
-    flex-flow: column wrap;
-}
 h1 {
     text-align: center;
     font-size: 2.8rem;
@@ -43,6 +39,9 @@ h5 {
     font-family: 'Roboto', sans-serif;
     font-style: italic;
 }
+img{
+    width: 15%;
+}
 .abajo {
     text-align: center;
     align-items: flex-end;
@@ -55,7 +54,7 @@ h5 {
 .landing {
  
     /* width: 44vw; */
-    height: 100vh;
+    /* height: 100vh; */
     overflow: hidden;
     align-self: center;
     margin-top: 1.5rem;
@@ -68,6 +67,14 @@ h5 {
     /* display: flex;
     flex-flow: column;
     justify-content: space-between; */
+}
+
+ul{
+    padding-left: 3rem;
+    
+}
+li{
+    list-style: none;
 }
 
 footer {
@@ -98,7 +105,6 @@ footer p{
 
 /* Formulario/Consultas */
 #contenedor-form{
-    /* width: 36vw; */
     align-self: center;
     margin-top: 2rem;
 }
@@ -485,7 +491,7 @@ input::placeholder{
   
 
 /* Media Queries */
-@media (min-width: 1300px) and (max-width: 1366px){
+/* @media (min-width: 1300px) and (max-width: 1366px){
     .landing{
         width: 36vw;
     }
@@ -585,4 +591,4 @@ input::placeholder{
         width: 100vw;
         font-size: 0.8rem;
     }
-}
+} */

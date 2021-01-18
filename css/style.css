@@ -2,6 +2,7 @@
     padding: 0;
     margin:0;
     box-sizing: border-box;
+    font-family:'Roboto', sans-serif;
 }
 
 /* Navbar */
@@ -10,11 +11,14 @@
 }
 
 #l-servicios{
-    color:#457B9D;
+    color:#457B9D !important;
 }
 
 #l-contacto{
     color:  #457B9D;
+}
+.navbar{
+    background-color: #a8dadc;
 }
 
 .nav-link:hover{
@@ -28,9 +32,10 @@
 
 h1 {
     text-align: center;
+    font-weight: 800;
     font-size: 2.8rem;
     opacity: 1;
-    color: black;
+    color: #1d3557;
     align-items: flex-start;
     font-family: 'Roboto', sans-serif;
 }
@@ -50,7 +55,9 @@ img{
         display: flex;
         align-items: flex-end;
     } */
-
+.landing>h2{
+    color: #457b9d;
+}
 .landing {
  
     /* width: 44vw; */
@@ -68,26 +75,53 @@ img{
     flex-flow: column;
     justify-content: space-between; */
 }
-
+.sobre-mi{
+    font-size: 1.2rem;
+}
 ul{
     padding-left: 3rem;
     
 }
-li{
+#servicios-list>li{
     list-style: none;
+    list-style: mongolian;
+}
+/* Redes sociales */
+.jumbotron{
+    background-color: #a8dadc;
+    /* margin-left: 8rem; */
+} 
+#contacto{
+    -webkit-animation: slide-fwd-center 0.45s cubic-bezier(0.250, 0.460, 0.450, 0.940) 2s both;
+    -moz-animation: slide-fwd-center 0.45s cubic-bezier(0.250, 0.460, 0.450, 0.940) 2s both;
+    -ms-animation: slide-fwd-center 0.45s cubic-bezier(0.250, 0.460, 0.450, 0.940) 2s both;
+            
+}  
+.redes{
+    text-align: center;
+    margin-top: 1.5rem;
+}
+#iconos{
+    font-size: 5rem;
 }
 
+/* Footer */
 footer {
-    padding-top: 2.5rem;
+    margin-top: 2rem;
+    padding-top: 1.5rem;
+    background-color: #a8dadc;
+    padding-bottom: 1.5rem;
 }
 footer p{
     font-size: 1.8rem;
     font-family: 'Roboto', sans-serif;
 }
 .fa-whatsapp{
+    font-size: 9rem;
     color: green;
 }
 .fa-facebook{
+    font-size: 9rem;
     color: #2962ff;
 }
 .fa-whatsapp:hover {
@@ -106,7 +140,7 @@ footer p{
 /* Formulario/Consultas */
 #contenedor-form{
     align-self: center;
-    margin-top: 2rem;
+    margin-top: 0.5rem;
 }
 h3 {
     text-align: center;
@@ -485,7 +519,29 @@ input::placeholder{
         -ms-box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
     }
 }
-  
+
+
+ @-webkit-keyframes slide-fwd-center {
+    0% {
+      -webkit-transform: translateZ(0);
+              transform: translateZ(0);
+    }
+    100% {
+      -webkit-transform: translateZ(160px);
+              transform: translateZ(160px);
+    }
+  }
+  @keyframes slide-fwd-center {
+    0% {
+      -webkit-transform: translateZ(0);
+              transform: translateZ(0);
+    }
+    100% {
+      -webkit-transform: translateZ(160px);
+              transform: translateZ(160px);
+    }
+  }
+    
       
   
   

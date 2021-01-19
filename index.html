@@ -33,7 +33,7 @@
               <a class="nav-link" href="#servicios" id="l-servicios">Servicios</a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link" href="#contacto" id="l-contacto">Contactate</a>
+              <a class="nav-link" href="#contacto" id="l-contacto">Consulta</a>
             </li>
             <!-- <li class="nav-item">
               <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
@@ -49,10 +49,6 @@
             <h1 id="bienvenida"> Licenciado Pablo Lopez</h1>
             <h5><em>-Psicólogo psicoanalista-</em></h5>
             <img src="./images/pp.jpg" alt="PabloLopez" class="img-thumbnail rounded float-right">
-            <!-- <figure class="figure d-flex justify-content-end">
-              <img src="./images/pp.jpg" class="figure-img img-fluid rounded rounded float-left" alt="...">
-              <figcaption class="figure-caption align-top">El deseo es producción permanente</figcaption>
-            </figure> -->
 
             <p class="sobre-mi"> Soy psicologo psicoanalista. Atiendo a mis pacientes en consultorio privado hace 15 años. Me especializo en X, Y Z. Soy egresado de C y tengo una diplomatura/doctorado/especializacion en B</p>
       </div>
@@ -113,9 +109,31 @@
     </footer>
 
     <!-- JQuery -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script> -->
+    <script
+    src="https://code.jquery.com/jquery-3.5.1.js"
+    integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+    crossorigin="anonymous">
+  </script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     <!-- <script src='main.js'></script> -->
+   
+  <script>
+    $(document).ready(function(){
+      $("a").on('click', function(event) {   
+        if (this.hash !== "") {
+          event.preventDefault();
+          var hash = this.hash;
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 500, function(){
+            window.location.hash = hash;
+          });
+        } 
+      });
+    });
+  </script>
+
 </body>
 </html>

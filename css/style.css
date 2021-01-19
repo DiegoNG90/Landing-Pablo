@@ -33,6 +33,8 @@
     -webkit-animation: tracking-in-expand-fwd-top 1.5s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
     -moz-animation: tracking-in-expand-fwd-top 1.5s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
     -ms-animation: tracking-in-expand-fwd-top 1.5s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
 
 }
 h1 {
@@ -48,12 +50,21 @@ h5 {
     text-align: center;
     font-family: 'Roboto', sans-serif;
     font-style: italic;
+    margin-bottom: 1.5rem;
 }
 img{
     width: 15%;
     -webkit-animation: scale-up-bl 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 0.5s both;
     -ms-animation: scale-up-bl 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 0.5s both;
     -moz-animation: scale-up-bl 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 0.5s both;
+}
+.img-thumbnail {
+    padding: .25rem;
+    background-color: #1d3557;
+    border: 1px solid #dee2e6;
+    border-radius: .25rem;
+    max-width: 100%;
+    height: auto;
 }
 .abajo {
     text-align: center;
